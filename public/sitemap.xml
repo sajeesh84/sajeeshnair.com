@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://sajeeshnair.com/posts/</loc>
+    <lastmod>2020-01-01T00:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/about/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/categories/</loc>
+    <lastmod>2020-01-01T00:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/tags/feature-image/</loc>
+    <lastmod>2020-01-01T00:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/posts/feature-image/</loc>
+    <lastmod>2020-01-01T00:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/categories/images/</loc>
+    <lastmod>2020-01-01T00:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/tags/layout/</loc>
+    <lastmod>2020-01-01T00:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/tags/</loc>
+    <lastmod>2020-01-01T00:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/tags/css/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/tags/html/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/categories/layout/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/tags/markdown/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/posts/markdown-syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/tags/themes/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/posts/style-guide/</loc>
+    <lastmod>2017-11-14T10:57:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/posts/image-content/</loc>
+    <lastmod>2017-11-14T08:08:17-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/posts/creating-a-new-theme/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/posts/goisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/categories/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/posts/hugoisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/tags/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/tags/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/categories/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/tags/hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/tags/templates/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sajeeshnair.com/posts/migrate-from-jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+</urlset>
