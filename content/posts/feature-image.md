@@ -1,7 +1,7 @@
 +++
 title = "Feature Image"
 date = 2020-01-01
-images = ["https://github.com/sajeesh84/sajeeshnair.com/blob/master/resources/_gen/images/profile1.jpg"]
+images = ["https://www.nasa.gov/sites/default/files/thumbnails/image/gateway_hero_angles_000.png"]
 tags = ["Feature Image", "Layout"]
 categories = ["Images"]
 +++
