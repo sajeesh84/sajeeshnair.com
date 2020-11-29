@@ -7,5 +7,5 @@ meta = "false"
 +++
 
 
-{{< figure src="profile1.jpg" class="float">}}
+{{< figure src="https://github.com/sajeesh84/sajeeshnair.com/raw/master/static/images/profile1.jpg" class="float">}}
 I write about performance engineering, B2B Saas and Leadership. As I learn about them.
