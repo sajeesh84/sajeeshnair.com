@@ -7,4 +7,5 @@ meta = "false"
 +++
 
 
+{{< figure src="profile1.jpg" class="float">}}
 I write about performance engineering, B2B Saas and Leadership. As I learn about them.
