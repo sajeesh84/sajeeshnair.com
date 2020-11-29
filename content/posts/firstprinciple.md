@@ -46,13 +46,11 @@ All these are observations from my first hand experience. YMMV.
 
 
 
-#### Ignore all analysis.
-Every time I arrived at the scene there were some analysis and theories provided by the teams around possible causes. Consuming this analysis by definition is opposite of First Principles thinking. Because it has perspectives and can be highly subjective to the person analyzing. Focus only on data and not its interpretation. And if those were good analysis, then it would be great a validation when you arrive at them independently. 
+**Ignore all analysis.**  Every time I arrived at the scene there were some analysis and theories provided by the teams around possible causes. Consuming this analysis by definition is opposite of First Principles thinking. Because it has perspectives and can be highly subjective to the person analyzing. Focus only on data and not its interpretation. And if those were good analysis, then it would be great a validation when you arrive at them independently. 
 
 
 
-#### Know the Symptoms.
-It is important to gather as many symptoms of the problem as you can. Symptoms should be derived as much as possible from raw indisputable facts(metrics, metrics, metrics).
+**Know the Symptoms.**  It is important to gather as many symptoms of the problem as you can. Symptoms should be derived as much as possible from raw indisputable facts(metrics, metrics, metrics).
 
 For example:
 
@@ -70,8 +68,7 @@ If you have gathered symptoms well, it gives you a head start into the next step
 
 
 
-#### Define Problem Statement.
-This is a much cliched one. But before starting an RCA, define the problem statement. Defining a good problem statement is half the battle won. Good problem statements (pertaining to performance and scalability) usually contain quantification – no subjectivity, no ambiguity. A good problem statement itself describes what is the success criteria for your troubleshooting exercise.
+**Define Problem Statement.**  This is a much cliched one. But before starting an RCA, define the problem statement. Defining a good problem statement is half the battle won. Good problem statements (pertaining to performance and scalability) usually contain quantification – no subjectivity, no ambiguity. A good problem statement itself describes what is the success criteria for your troubleshooting exercise.
 
 
 
@@ -87,18 +84,15 @@ For example:
 
 
 
-#### Focus on Hard/Raw Metrics. 
-Once you have defined the problem statement, use raw(indisputable) metrics to draw up your analysis and conclusions. Strip out any analysis that doesn’t have supporting quantifiable metrics.
+**Focus on Hard/Raw Metrics.**  Once you have defined the problem statement, use raw(indisputable) metrics to draw up your analysis and conclusions. Strip out any analysis that doesn’t have supporting quantifiable metrics.
 
 
 
-#### Don’t assume correlation as causality.
-It is very common to look at patterns of different metrics and mistake matching trends as spotting a cause. For all we know all these metrics indicate effect of an underlying cause.
+**Don’t assume correlation as causality.**  It is very common to look at patterns of different metrics and mistake matching trends as spotting a cause. For all we know all these metrics indicate effect of an underlying cause.
 
 
 
-#### Know when the problem is solved.
-Lastly, once the issue has been RCA’d and fixed, it is important to quantify and say that it has been fixed. You should have the required metrics/monitoring in place to say that the issue has actually been resolved. A lot of times the outcome of a fix is left to be subjective. This leads to difficulty in getting a consensus on success of the exercise.If you have set the problem statement well, odds are that this is already taken care of.
+**Know when the problem is solved.** Lastly, once the issue has been RCA’d and fixed, it is important to quantify and say that it has been fixed. You should have the required metrics/monitoring in place to say that the issue has actually been resolved. A lot of times the outcome of a fix is left to be subjective. This leads to difficulty in getting a consensus on success of the exercise.If you have set the problem statement well, odds are that this is already taken care of.
 
 
 
