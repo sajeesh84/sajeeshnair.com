@@ -33,10 +33,9 @@ Before we get into VPC make sure we understand how to manage IP Addresses.
 
 If you don’t want to access the instance from outside your VPC, then it is a good idea to launch the instance with only Private IP. The option to assign/not assign Public IP automatically is provided at instance launch as shown in snapshot below.
 
-{{< figure src="https://github.com/sajeesh84/sajeeshnair.com/raw/master/static/images/vpc-1.jpg" class="mid">}}
+{{< figure src="https://github.com/sajeesh84/sajeeshnair.com/raw/master/static/images/vpc-1.png" class="mid">}}
 
 **Private IP address:** Private IP is the identity of your instance within your network(vpc). This IP is not visible/accessible to the outside world and hence gives you a basic layer of security. Public IP is mapped to Private IP using a network address translation. A Private IP is automatically assigned to your instance when it is launched.
-
 **Point to Remember #1:** An instance can have a primary and a secondary Private IP Address. If the instance has public IP, it must be mapped to one of the private ips. As you would have guessed by now, private ips do not necessarily need to be mapped to public ips. So you could have 2 private ips and 1 public ip.
 
 **Elastic Network Interface(ENI):** think of ENIs as your NIC cards, only virtual. These are logical components very central to networking in AWS.
@@ -138,12 +137,12 @@ Now lets understand how Route Tables work.
 Every VPC has a default route table that is created along with VPC by default. Your can either use this and add routes to it or create your own Custom Route Tables. Every VPC has a Main Route Table. This is the table that is attached by default to every subnet created in that vpc. As you might have guessed the default route table is the Main Route table when vpc is created.
 
 You can see a VPC’s Main route table in console(example below):
-{{< figure src="https://github.com/sajeesh84/sajeeshnair.com/raw/master/static/images/vpc-2.jpg" class="mid">}}
+{{< figure src="https://github.com/sajeesh84/sajeeshnair.com/raw/master/static/images/vpc-2.png" class="mid">}}
 
 ### Routes:
 
 A route table typically has entries in Target : Destination pair as below:
-{{< figure src="https://github.com/sajeesh84/sajeeshnair.com/raw/master/static/images/vpc-3.jpg" class="mid">}}
+{{< figure src="https://github.com/sajeesh84/sajeeshnair.com/raw/master/static/images/vpc-3.png" class="mid">}}
 
 
 Local Route: This is the route that is present by default in a route table. This defines that all traffic with destination “local”(within vpc) to be sent to that vpc’s cidr block.
@@ -151,7 +150,7 @@ Local Route: This is the route that is present by default in a route table. This
 Route for Internet-Gateway: The 2nd rule in the table above is route to internet gateway. It defines that all traffic(0.0.0.0/0) to be routed to IGW.
 
 Route for NAT-Gateway: If you add a route as below it says that all traffic be routed to NGW.
-{{< figure src="https://github.com/sajeesh84/sajeeshnair.com/raw/master/static/images/vpc-4.jpg" class="mid">}}
+{{< figure src="https://github.com/sajeesh84/sajeeshnair.com/raw/master/static/images/vpc-4.png" class="mid">}}
 
 
 Some of the other routes can include : route to virtual private gateway(required for connecting from cloud to your remote network via Site-to-Site-VPN), Route to peering connection and few others which are we will look at in another post.
@@ -179,13 +178,13 @@ Following figure helps summarize this:
 Here I have my two route tables, 1 private(local and NGW routes) and 1 public(local and IGW) routes.
 
 The private route table is my main route table. And my public route table has 2 explicit subnet associations.
-{{< figure src="https://github.com/sajeesh84/sajeeshnair.com/raw/master/static/images/vpc-5.jpg" class="mid">}}
+{{< figure src="https://github.com/sajeesh84/sajeeshnair.com/raw/master/static/images/vpc-5.png" class="mid">}}
 Below you can see 4 Subnets(2 Public and 2 Private) that I have created in my VPC.
 
 The first two are Private Subnet, by being attached to “my_private_rt”. The other 2 are public by being attached to “my_public_rt”.
 
 Also, as you can see I have same route tables associated with multiple subnets.
-{{< figure src="https://github.com/sajeesh84/sajeeshnair.com/raw/master/static/images/vpc-6.jpg" class="mid">}}
+{{< figure src="https://github.com/sajeesh84/sajeeshnair.com/raw/master/static/images/vpc-6.png" class="mid">}}
 
 There are other areas like route-propagation and gateways route tables which we will cover in a later post.
 
@@ -204,7 +203,7 @@ When a subnet it is associated with a NACL. This is typically the NACL of the VP
 Similarly when an EC2 instance is launched it either picks the SG from VPC or you can associate one(or more) SGs to it.
 
 Following is a comparison of the two(ref: AWS Documentation):
-{{< figure src="https://github.com/sajeesh84/sajeeshnair.com/raw/master/static/images/vpc-7.jpg" class="mid">}}
+{{< figure src="https://github.com/sajeesh84/sajeeshnair.com/raw/master/static/images/vpc-7.png" class="mid">}}
 
 
 This covers pretty much the basic building blocks that you would require to get started with a simple application deployment in VPC.
