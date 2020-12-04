@@ -10,7 +10,7 @@ summaryLength = 20
 enableEmoji = true
 #pygmentsCodeFences = true
 
-#disqusShortname = "myShortName"
+disqusShortname = "sajeeshn"
 
 # Note: to disable a social network icon delete or comment out the corresponding line
 [author]
@@ -34,11 +34,11 @@ enableEmoji = true
     #utterancesRepo = "username/repository"
     #utterancesIssueTerm = "pathname"
     #homepageLength = 10
-    #commentAutoload = true  #This mean reader don't need click, disqus comment autoload
+    commentAutoload = true  #This mean reader don't need click, disqus comment autoload
     #mathjax = true #Enable display of mathematics using mathjax (LaTeX syntax)
     #katex = true #Enable display of mathematics using katex (Faster LaTeX rendering)
     #google_fonts = ["Staatliches"] # Adds additional google fonts
-    #disableDarkModeCSS = true # disables css style for users using dark-mode
+    disableDarkModeCSS = false # disables css style for users using dark-mode
 
 # uncomment to enable the Tags link on the main toolbar
 #  [[menu.main]]
