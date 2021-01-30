@@ -15,7 +15,7 @@ I start all my interactions/relations with 100% Trust. And then if the person do
 
 When someone picks up a task(or even an offline favor), I fully trust them to deliver on it. However, I plan some buffer(or a plan-B) in case they fail. In which case they lose some charge. I usually plan to pick up the slack in case I incorrectly trust a person.
 
-**Why this works for me:**
+## Why this works for me:
 
 **Not trusting** requires a lot of energy. So partly its my laziness.
 
@@ -29,7 +29,7 @@ This has greatly impact the velocity. Going safe is slow. (Fail Fast and Iterate
 
 Lack of trust is usually the underlying rationale for a lot of cumbersome processes that we see in the industry.
 
-**And When you Fail...**
+## And When you Fail...
 
 Solving of problem after the fact could take multiple forms:
 
@@ -38,12 +38,12 @@ Solving of problem after the fact could take multiple forms:
 3. you show the person how it needs to be done and let him iterate.
 4. most importantly you plan sufficient buffer to allow one of the 3 solutions above.
 
-**What does trust mean really?**
+## What does trust really mean?
 
 I tend to think of trust in two independent lanes:
 
-1. Trust of Motivation/Intention: Is the person motivated enough to deliver on a task with 100% commitment?
-2. Trust of Ability: Does the person have the actual skills and knowledge to complete the task?
+1. **Trust of Motivation/Intention:** Is the person motivated enough to deliver on a task with 100% commitment?
+2. **Trust of Ability:** Does the person have the actual skills and knowledge to complete the task?
 
 Without Motivation, Ability is of no use. If there is Motivation, lack of Ability can be bridged given time(implies hard work).
 
