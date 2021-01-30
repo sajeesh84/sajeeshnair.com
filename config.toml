@@ -10,7 +10,7 @@ summaryLength = 20
 enableEmoji = true
 #pygmentsCodeFences = true
 
-disqusShortname = "sajeeshn"
+#disqusShortname = "sajeeshn"
 
 # Note: to disable a social network icon delete or comment out the corresponding line
 [author]
