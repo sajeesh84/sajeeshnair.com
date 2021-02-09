@@ -9,7 +9,7 @@ tags = [
 
 Trust Battery is coined by Toby Lutke, Shopify CEO. It is a simple mental model that applies the Battery and Charge analogy to Trust between people. 
 
-My mental model for trust especially is a slight variant.  Esp. in the context of workplace and my team.
+My mental model for trust is a slight variant. Especially in the context of workplace and my team.
 
 I start all my interactions/relations with 100% Trust. And then if the person doesn't live up to the trust level they lose some charge. If they do well it stays at 100%. If someone loses charge(constantly) beyond a level it makes very less sense to invest my time/energy in working with that person.
 
