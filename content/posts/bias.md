@@ -7,9 +7,9 @@ tags = [
 
 +++
 
-In this essay I explore cognitive biases and how it affects the field of performance engineering.
+In this essay I explore cognitive biases and how it affects the field of performance engineering. I hope this helps engineers avoid the cognitive traps.
 
-Please bear with me and read this essay [here](https://www.notion.so/Cognitive-Biases-of-Performance-Engineer-6bd4c631730c459b8a16c20c6226a081).
+Please read this essay [here](https://www.notion.so/Cognitive-Biases-of-Performance-Engineer-6bd4c631730c459b8a16c20c6226a081).
 
-{{< figure src="https://github.com/sajeesh84/sajeeshnair.com/blob/master/static/images/illusion.jpeg" class="mid">}}
+{{< figure src="https://github.com/sajeesh84/sajeeshnair.com/raw/master/static/images/illusion.jpeg" class="mid">}}
 source: [NewYorker](https://www.newyorker.com/humor/daily-shouts/apartment-optical-illusions)
