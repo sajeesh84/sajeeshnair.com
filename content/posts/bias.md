@@ -2,7 +2,7 @@
 title = "Cognitive Biases in Performance Engineering"
 date = "2021-06-14"
 tags = [
-    "Leadership",
+    "Performance Engineering",
 ]
 
 +++
