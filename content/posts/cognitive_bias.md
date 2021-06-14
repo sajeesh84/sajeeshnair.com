@@ -1,6 +1,4 @@
-+++ title = "Cognitive Biases of a Performance Engineer" date = "2021-06-14" tags = [ "performance engineering", ]
-
-+++
++++ title = "Cognitive Biases of a Performance Engineer" date = "2021-06-14" tags = [ "performance engineering", ] +++
 
 I started reading about behavioural psychology a few months back. And I couldn't help thinking about all the cognitive traps that a performance engineer faces every day. In this essay I try to expand my own understanding of cognitive biases and how they are relevant to the field of performance engineering. As I learn more about this topic it is very likely that I may update some of the views expressed in this writeup.
 
