@@ -11,6 +11,6 @@ meta = "false"
 
 # Product Pupil 
 
-[Product Pupil](https://www.productpupil.com) is an attempt to understand Product Management in B2B space. I talk to Product Managers try to learn from their experiences.
+[Product Pupil](https://spotifyanchor-web.app.link/e/vCoi8Ojm3zb) is an attempt to understand Product Management in B2B space. I talk to Product Managers try to learn from their experiences.
 
 
