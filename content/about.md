@@ -1,11 +1,14 @@
+
 +++
 title = "About"
 date = "2014-04-09"
 menu = "main"
 weight = "20"
-meta = "false"
+meta = "true"
 +++
 
 
-{{< figure src="https://github.com/sajeesh84/sajeeshnair.com/raw/master/static/images/profile1.jpg" class="float">}}
-I write about performance engineering, B2B Saas and Leadership and some other random thoughts.
+
+{{< image src="https://github.com/sajeesh84/sajeeshnair.com/blob/master/ABOUT.png?raw=true" alt="Sajeesh Nair" position="left" style= "width:100%" >}}
+
+

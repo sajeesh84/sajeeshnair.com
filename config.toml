@@ -1,63 +1,243 @@
-baseurl = "https://sajeeshnair.com/"
-title = "Sajeesh Nair"
-#copyright = "Copyright &copy; 2019 - Author Name"
-canonifyurls = true
-theme = "hugo-kiera"
+baseURL = "https://sajeeshnair.com/"
+title   = "Sajeesh Nair"
+languageCode = "en-us"
+theme = "hello-4s3ti"
 
-paginate = 10
+PygmentsCodeFences = false
+PygmentsStyle = "monokai"
 
-summaryLength = 20
-enableEmoji = true
-#pygmentsCodeFences = true
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+#copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
-#disqusShortname = "sajeeshn"
+# googleAnalytics = ""
+# disqusShortname = ""
 
-# Note: to disable a social network icon delete or comment out the corresponding line
-[author]
-    name = "Sajeesh"
-    #github = "funkydan2"
-    #gitlab = "username"
-    linkedin = "sajeesh-nair-9691409"
-    #facebook = "username"
-    twitter = "sajeesh84"
-    #instagram = "username"
-    #stackoverflow = "username"
-    #youtube = "user/username" # or channel/channelname
-    #devto = "username"
-    podcast = "https://www.productpupil.com/"
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+IsMultiLingual = false
+defaultContentLanguage = "en"
+
+
+#[permalinks]
+ # posts = "/posts/:year/:month/:title/"
+
+#[author]
+  #name = "Jane Doe"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
 
 [params]
-    tagline = "Performance | B2B SaaS | Leadership"
-    description = "OOOOOOOOO"
-    #images = [""] #This is used for opengraph/twitter cards.
-    customCSS = []  #Optional Customised CSS
-    #favicon = ""
-    #utterancesRepo = "username/repository"
-    #utterancesIssueTerm = "pathname"
-    #homepageLength = 10
-    commentAutoload = true  #This mean reader don't need click, disqus comment autoload
-    #mathjax = true #Enable display of mathematics using mathjax (LaTeX syntax)
-    #katex = true #Enable display of mathematics using katex (Faster LaTeX rendering)
-    #google_fonts = ["Staatliches"] # Adds additional google fonts
-    disableDarkModeCSS = false # disables css style for users using dark-mode
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+  
+  # Metadata mostly used in document's head
+  # 
+  description = "Nice theme for homepages and blogs"
+  keywords = ""
+  images = [""]
 
-# uncomment to enable the Tags link on the main toolbar
-#  [[menu.main]]
-#    identifier = "tags"
-#    name = "Tags"
-#    url = "/tags"
-#    weight = 1
+  # Home page title
+  homeTitle = "Sajeesh Nair"
 
-# uncomment to enable the Categories link on the main toolbar
-#  [[menu.main]]
-#    identifier = "categories"
-#    name = "Categories"
-#    url = "/categories"
-#    weight = 1
+  # Home subtitle of the index page.
+  #
+  homeSubtitle = "writing for volume. quantity over quality." 
 
-# uncomment to enable the Categories link on the main toolbar
+  # Set a background for the homepage
+  backgroundImage = ""
+  
+  # Adds a dark overlay over the background
+  # backgroundEffects = false
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  #
+  # gitUrl = ""
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  #
+  disableReadOtherPosts = false
+  
+  # Sets the default theme
+  defaultTheme = "light"
+
+  # Enable theme toggle
+  # 
+  # This options enables the theme toggle for the theme. 
+  # Per default, this option is off. 
+  # The theme is respecting the prefers-color-scheme of the operating systeme. 
+  # With this option on, the page user is able to set the scheme he wants. 
+  enableThemeToggle = true
+
+  # Sharing buttons
+  #
+  # There are a lot of buttons preconfigured. If you want to change them,
+  # generate the buttons here: https://sharingbuttons.io
+  # and add them into your own `layouts/partials/sharing-buttons.html`
+  #
+  enableSharingButtons = false
+
+  # Global language menu
+  #
+  # Enables the global language menu.
+  #
+  enableGlobalLanguageMenu = false
+
+  # Shows Posts on the front/Home page
+  showPosts = true
+
+  # Shows the ReadMore button in text instead
+  ReadmoreText = true
+
+  # Hides ReadMore
+  hideReadMore = false
+
+  # Shows reding time
+  ShowReadingTime = false
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  #
+  customCSS = []
+  customJS  = []
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  #
+  justifyContent = false  # Set "text-align: justify" to .post-content.
+
+  # Custom footer 
+  # If you want, you can easily override the default footer with your own content. 
+  #
+  [params.fontAwesome]
+    KitURL = "https://kit.fontawesome.com/KitID.js"
+
+  [params.footer]
+    trademark = false
+    rss = false
+    copyright = false
+    author = false
+
+    # Shows social icons on footer instead of main page
+    socialIcons = true
+
+    topText = []
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+      "<a href=\"https://github.com/4s3ti\">4s3ti</a>"
+    ]
+
+  # Colors for favicons
+  #
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "$ /home/"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+     logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+     logoCursorAnimate  = "2s"
+
+  # Commento is more than just a comments widget you can embed — 
+  # it’s a return to the roots of the internet. 
+  # An internet without the tracking and invasions of privacy. 
+  # An internet that is simple and lightweight. 
+  # An internet that is focused on interesting discussions, not ads. 
+  # A better internet.
+  # Uncomment this to enable Commento.
+  #
+  # [params.commento]
+  #   url = ""
+
+  # Uncomment this if you want a portrait on your start page
+  #
+  [params.portrait]
+     path     = "tapes.jpg"
+     alt      = "Portrait"
+     maxWidth = "50px"
+
+  # Social icons
+  #[[params.social]]
+  #  name = "twitter"
+  #  url  = "https://twitter.com/sajeesh84"
+    
+  #[[params.social]]
+  #  name = "email"
+  #  url  = "mailto:san666@gmail.com"
+  #  icon = "fa-solid fa-envelope"
+
+  #[[params.social]]
+  #  name = "github"
+  #  url  = "https://github.com/"
+
+  #[[params.social]]
+  #  name = "linkedin"
+  #  url  = "https://www.linkedin.com/in/sajeesh-nair/"
+
+
+  #[[params.social]]
+   # name = "stackoverflow"
+   # url  = "https://www.stackoverflow.com/"
+
+#[languages]
+#   [languages.en]
+#    weight    = 1
+#    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+#  [languages.en.params]
+#    subtitle  = "Hello 4s3ti Theme"
+#  [languages.fr]
+#    weight    = 2
+#    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+ # [languages.fr.params]
+#    subtitle  = "Hello 4s3ti Theme"
+
+[menu]
   [[menu.main]]
-    identifier = "Posts"
-    name = "Posts"
-    url = "/posts"
-    weight = 1
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts"
+  #[[menu.main]]
+  #  identifier = "about"
+  #  name       = "About"
+  #  url        = "about"
+  
+  #[[menu.main]]
+  #  identifier = "tools"
+  #  name       = "Tools"
+  #  url        = "#"
+  #[[menu.main]]
+  #  identifier = "sometool"
+  #  name       = "SomeTool"
+   # url        = "#"
+   # parent     = "tools"
